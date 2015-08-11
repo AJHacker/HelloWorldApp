@@ -13,7 +13,23 @@
 @end
 
 @implementation ViewController
+-(IBAction)buttonPressed:(id)sender {
+    NSString *secondString = @"Goodbye world";
+    [textBox setText:secondString];
+    NSString *secondString2 = @"";
+    [textBox2 setText:secondString2];
 
+    
+
+}
+
+-(IBAction)buttonPressedSecond:(id)sender {
+    NSString *secondString = @"Hello";
+    [textBox2 setText:secondString];
+    NSString *secondString2 = @"";
+    [textBox setText:secondString2];
+    
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];

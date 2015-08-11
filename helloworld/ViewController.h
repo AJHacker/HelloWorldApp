@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController {
+    IBOutlet UILabel *textBox;
+     IBOutlet UILabel *textBox2;
+}
+-(IBAction)buttonPressed:(id)sender;
+-(IBAction)buttonPressedSecond:(id)sender;
 @end

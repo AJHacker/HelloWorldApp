@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F37CF9F15D015BC0048EF40 /* badguy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F37CF9E15D015BC0048EF40 /* badguy.png */; };
 		5FA2AE6E15CFFE2800C42A88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA2AE6D15CFFE2800C42A88 /* UIKit.framework */; };
 		5FA2AE7015CFFE2800C42A88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA2AE6F15CFFE2800C42A88 /* Foundation.framework */; };
 		5FA2AE7215CFFE2800C42A88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA2AE7115CFFE2800C42A88 /* CoreGraphics.framework */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F37CF9E15D015BC0048EF40 /* badguy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = badguy.png; path = ../../../Animation/Animation/images/badguy.png; sourceTree = "<group>"; };
 		5FA2AE6915CFFE2800C42A88 /* helloworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FA2AE6D15CFFE2800C42A88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5FA2AE6F15CFFE2800C42A88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -115,6 +117,7 @@
 				5FA2AE7D15CFFE2800C42A88 /* AppDelegate.m */,
 				5FA2AE7F15CFFE2800C42A88 /* MainStoryboard.storyboard */,
 				5FA2AE8215CFFE2800C42A88 /* ViewController.h */,
+				5F37CF9E15D015BC0048EF40 /* badguy.png */,
 				5FA2AE8315CFFE2800C42A88 /* ViewController.m */,
 				5FA2AE7415CFFE2800C42A88 /* Supporting Files */,
 			);
@@ -224,6 +227,7 @@
 			files = (
 				5FA2AE7815CFFE2800C42A88 /* InfoPlist.strings in Resources */,
 				5FA2AE8115CFFE2800C42A88 /* MainStoryboard.storyboard in Resources */,
+				5F37CF9F15D015BC0048EF40 /* badguy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +438,7 @@
 				5FA2AE9E15CFFE2800C42A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FA2AE9F15CFFE2800C42A88 /* Build configuration list for PBXNativeTarget "helloworldTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +447,7 @@
 				5FA2AEA115CFFE2800C42A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
